@@ -1,0 +1,141 @@
+body {
+ font-family: 'Josefin Slab', serif;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 6em;
+}
+
+p {
+  font-size: 26px;
+}
+
+.header-image {
+  background: url("http://res.cloudinary.com/dfktup6dt/image/upload/v1464794332/download_d2kbdj.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.header {
+  padding-top: 20%;
+  padding-bottom: 25%;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  text-align: center;
+}
+
+.about-background {
+  background-color: #F1F2F0;
+  background-size: cover;
+}
+
+.image {
+  border-radius: 50%;
+  height: auto;
+  width: auto;
+  max-width: 300px;
+  max-height: 300px;
+  float: left;
+}
+
+.clearfix {
+overflow: auto;
+}
+.about {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: #4F5458;
+  text-align: center;
+
+}
+
+#aboutme {
+  text-align:center;
+
+}
+
+#skills {
+  text-align: center;
+}
+
+.skill-list {
+  text-align: center;
+}
+.intro {
+  text-align: center;
+}
+
+.skill-list {
+ text-align: center;
+  padding-left: 25%
+}
+
+.larger-font {
+  font-size: 36px;
+}
+
+.smaller-font {
+  font-size: 16px;
+}
+
+.portfolio {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  color: #F1F2F0;
+  background-color: #4F5458;
+  background-size: cover;
+  @include make-col();
+}
+
+.well {
+  background: transparent;
+  border: none;
+  padding: 5px;
+  color: #F1F2F0;
+}
+
+.well:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.contact {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  background-color: #F1F2F0;
+  color: black;
+}
+
+.footer {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.social-icon {
+  color: black;
+  padding: 30px;
+}
+
+.fa-twitter:hover {
+  color: #0084b4
+}
+
+.fa-github:hover {
+  color: #313335;
+}
+
+.fa-linkedin:hover {
+  color: #0077b5;
+}
+
+.fa-fire:hover {
+  color: gray;
+}
+
+.fa-envelope:hover {
+  color: #ea4335;
+}
